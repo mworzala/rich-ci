@@ -15,12 +15,12 @@ def main():
     print("::notice file=src/actions.py,line=9,col=5,title=Notice Title::https://docs.github.com/en/actions/learn-github-actions/workflow-commands-for-github-actions#setting-a-notice-message")
 
     # Warning
-    print("Notices")
-    print("::notice file=src/actions.py,line=13,col=5,title=Warning Title::https://docs.github.com/en/actions/learn-github-actions/workflow-commands-for-github-actions#setting-a-warning-message")
+    print("Warning")
+    print("::warning file=src/actions.py,line=13,col=5,title=Warning Title::https://docs.github.com/en/actions/learn-github-actions/workflow-commands-for-github-actions#setting-a-warning-message")
 
     # Error
     print("Errors")
-    print("::notice file=src/actions.py,line=17,col=5,title=Error Title::https://docs.github.com/en/actions/learn-github-actions/workflow-commands-for-github-actions#setting-an-error-message")
+    print("::error file=src/actions.py,line=17,col=5,title=Error Title::https://docs.github.com/en/actions/learn-github-actions/workflow-commands-for-github-actions#setting-an-error-message")
 
     # Groups
     print("Folding Groups")
