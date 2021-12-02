@@ -20,7 +20,7 @@ def main():
 
     # Error
     print("Errors")
-    print("::error file=src/actions.py,line=17,col=5,title=Error Title::https://docs.github.com/en/actions/learn-github-actions/workflow-commands-for-github-actions#setting-an-error-message")
+    print("::error file=src/actions.py,line=22,endLine=24,title=Error Title::https://docs.github.com/en/actions/learn-github-actions/workflow-commands-for-github-actions#setting-an-error-message")
 
     # Groups
     print("Folding Groups")
